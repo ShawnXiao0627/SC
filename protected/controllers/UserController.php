@@ -7,8 +7,8 @@
 class UserController extends Controller {
 
     //public $layout = '//admin_layouts/main';
-    public $layout = '//layouts/main';
-    //public $layout = '//layouts/login';
+    //public $layout = '//layouts/main';
+    public $layout = '//layouts/login';
 
     /**
      * Creates User.

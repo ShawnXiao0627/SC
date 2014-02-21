@@ -2,7 +2,7 @@
 
 class SiteController extends Controller
 {
-    public $layout = '//user_layouts/main';
+    //public $layout = '//layouts/main';
     //	/**
     //	 * Declares class-based actions.
     //	 */
@@ -28,9 +28,10 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        $this->layout = '//layouts/loginLayout';
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
-        $this->render('index');
+        $this->render('../user/login');
     }
 
     /**

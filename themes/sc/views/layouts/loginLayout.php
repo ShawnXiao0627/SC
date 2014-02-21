@@ -35,9 +35,8 @@
       </div>
         <?php echo $content; ?>
       <div class="clear"></div>
-      <h2>footer-content</h2>
-      <?php $this->beginContent('//layouts/footer'); ?>
-      <?php $this->endContent(); ?>
+      
+     
     </div><!-- page -->
   </body>
 </html>
