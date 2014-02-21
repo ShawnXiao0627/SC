@@ -1,0 +1,2 @@
+1. 0.001 to 0.0011
+	Refine table term-relationships add column object_id, add unique key (`object_id`, `term_taxonomy_id`)

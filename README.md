@@ -1,4 +1,4 @@
-SC
-==
+yiicms
+======
 
-SchoolCarSystem
+A YII based CMS

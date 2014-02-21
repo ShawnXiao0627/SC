@@ -1,0 +1,73 @@
+
+label{
+  vertical-align: middle;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.tab-pane__btn-group {
+  overflow: hidden;
+}
+
+.manage-menus {
+  border: 1px solid #eee;
+  background: #fbfbfb;
+  border-radius: 3px;
+  padding: 5px;
+  margin-top: 23px;
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+}
+.manage-menus .menu-select {
+  margin: 0;
+  padding: 0;
+}
+.manage-menus .select-menu {
+  float: left;
+  margin: 5px 6px 0 0;
+}
+
+.manage-menus .js-menu-list {
+  float: left;
+  margin:5px 6px 1px 1px;
+}
+
+.manage-menus .submit-btn {
+  float: left;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.manage-menus .button-style {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 23px;
+  height: 24px;
+  margin: 0;
+  padding: 0 10px 1px;
+  cursor: pointer;
+  border-style: solid;
+  -webkit-border-radius: 3px;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-color: #bbb;
+}
+.alert_message {
+  margin: 5px 0 15px;
+  padding: 0 .6em;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+}
+.alert_message span { 
+  margin: .5em 0;
+  padding: 2px;
+  display:block;
+}

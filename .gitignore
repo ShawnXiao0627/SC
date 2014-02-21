@@ -1,0 +1,6 @@
+.project
+.buildpath
+#ignore these files
+.settings/*
+key.txt
+key.txt.pub

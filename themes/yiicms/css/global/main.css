@@ -1,0 +1,26 @@
+
+
+.container__menu-nav {
+  float: left;
+}
+.containers {
+  
+}
+
+.container__content-manager{
+  padding: 0 20px 0 20px;
+  overflow: hidden;
+}
+
+.l-dialog {
+  height: 170px;
+  width: 620px!important;
+  padding: 0!important;
+  overflow: hidden;
+}
+
+.dialog_modal {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 620px!important;
+}
