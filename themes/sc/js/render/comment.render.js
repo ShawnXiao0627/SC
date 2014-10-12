@@ -14,6 +14,7 @@ define(['jquery', 'renderTemplate', 'view/view', 'underscore', 'global/constants
     var $obj = $(this);
     var commentStatus = $obj.attr('data-status');
     var commentId = $obj.parent().attr('data-id');
+    console.log(commentId);
     controller.operateComment(commentId, commentStatus, $obj);
   }
 
